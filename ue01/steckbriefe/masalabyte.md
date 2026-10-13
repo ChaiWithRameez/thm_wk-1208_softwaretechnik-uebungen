@@ -9,3 +9,5 @@ Im 2. Semester habe ich mich im Modul "Algorithmen und Datenstrukturen" mit vert
 
 ## Das erwarte ich von der Veranstaltung
 Ich möchte verstehen, wie man im Team Softwareprojekte entwickelt und wie man Tools wie Git und GitHub praxisnah nutzt.
+
+*Ergänzug im Browser :)*
