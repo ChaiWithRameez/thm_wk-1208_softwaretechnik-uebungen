@@ -8,4 +8,4 @@ Vor dem Beginn des Studiengangs habe ich den Programmiervorkurs besucht und im 1
 Im 2. Semester habe ich mich im Modul "Algorithmen und Datenstrukturen" mit vertiefenden Konzepten der Porgrammierung auseinandergesetzt. 
 
 ## Das erwarte ich von der Veranstaltung
-Ich möchte verstehen, wie man im Team Softwareprojekte entwickelt und wie man Tools wie Git und GitHub praxisnah einsetzt.
+Ich möchte verstehen, wie man im Team Softwareprojekte entwickelt und wie man Tools wie Git und GitHub praxisnah nutzt.
