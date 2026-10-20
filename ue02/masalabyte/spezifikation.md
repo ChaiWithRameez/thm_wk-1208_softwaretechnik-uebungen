@@ -1,25 +1,23 @@
-<!-- GitHub-Benutzername: ChaiWithRameez -->
+<!-- GitHub-Benutzername: masalabyte -->
 
-# Entwurf der Spezifikation für den THM-Terminplaner
+# Entwurf zur Systemspezifikation: THM Terminplaner
 
-## 1. Einleitung und Zielsetzung
-Dieses Dokument spezifiziert die Anforderungen an die neue Software zur Terminplanung an der THM.
-* **Beispiel:** "Das System ersetzt die bisherige Terminvereinbarung per Zettel und E-Mail durch eine zentrale Webanwendung mit Hochschul-Login."
+## 1. Ausgangssituation und Ziel
+Das System soll die Terminvereinbarung an der THM digitalisieren.
+* **Beispiel:** Studierende buchen Sprechstunden künftig über Hochschul -LogIn statt per Zettel an der Bürotür.
 
-## 2. Benutzerrollen und Rechte
-Übersicht über die im System agierenden Akteure.
-* **Beispiel:** 
-  * *Studierende:* Können freie Termine einsehen und buchen.
-  * *Lehrende:* Können Zeitfenster für Sprechstunden definieren.
+## 2. Benutzer und Rollen
+Wer bedient das System?
+* **Beispiel:** Lehrende legen freie Zeiten an; Studierende können  diese Zeiten buchen.
 
-## 3. Funktionale Anforderungen
-Detaillierte Beschreibung der Systemfunktionen.
-* **Beispiel:** "Nach erfolgreicher Buchung eines Sprechstundentermins generiert das System automatisch eine `.ics`-Datei und sendet eine Bestätigung."
+## 3. Kernfunktionen
+Was muss das System können?
+* **Beispiel:** Nach einer Buchung wird automatisch eine `.ics`-Kalenderdatei für den Download erzeugt.
 
-## 4. Schnittstellen (Spezifikation der API)
-Vorgaben für die Anbindung externer Systeme und KI-Agenten.
-* **Beispiel:** `GET /api/v1/slots?department=mnd` liefert eine Liste aller verfügbaren Zeitfenster im JSON-Format.
+## 4. Schnittstellen
+Die Anbindung an andere Systeme.
+* **Beispiel:** Eine REST-API (`/api/slots`), über die KI-Agenten freie Termine automatisiert abfragen können.
 
-## 5. Nicht-funktionale Anforderungen
-Qualitätsmerkmale wie Sicherheit, Leistung und Verfügbarkeit.
-* **Beispiel:** "Die Authentifizierung aller Benutzer muss zwingend über den zentralen SSO-Dienst der THM erfolgen."
+## 5. Qualität und Rahmenbedingungen
+Wichtige Vorgaben für den Betrieb.
+* **Beispiel:** Der LogIn erfolgt über das Hochschulkonto der THM.
